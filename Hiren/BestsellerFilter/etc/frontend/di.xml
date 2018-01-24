@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Block\Product\ProductList\Toolbar" type="Hiren\BestsellerFilter\Block\Product\ProductList\Toolbar"/>
+    <preference for="Magento\Catalog\Model\Config" type="Hiren\BestsellerFilter\Model\Config"/>
+</config>
