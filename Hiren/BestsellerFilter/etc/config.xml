@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <bestsellerfilter>
+            <module>
+                <is_enabled>0</is_enabled>
+            </module>
+        </bestsellerfilter>
+    </default>
+</config>
