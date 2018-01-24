@@ -1,0 +1,26 @@
+{
+    "name": "Hiren/bestsellerfilter",
+    "description": "Magento 2 custom module to add custom best seller filter to product list toolbar",
+    "require": {
+        "magento/framework": "~100.0"
+    },
+    "type": "magento2-module",
+    "version": "3.0.3",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Hiren\\BestsellerFilter\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Hiren/BestsellerFilter"
+            ]
+        ]
+    }
+}
